@@ -38,9 +38,9 @@ body{
 }
 .Tmenu {
     margin:0 40px;
-    font-size: 28px;
+    font-size: 34px;
     color:var(--white);
-    font-family: var(--bebas);
+    font-family: 'Bebas Neue', cursive;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
@@ -69,4 +69,40 @@ body{
     position: absolute;
     top: 550px;
     left: 48%;
+}
+.contentContainer{
+    width: 85%;
+    height: fit-content;
+    min-height: 600px;
+    border-left: solid var(--white) 4px;
+    position: relative;
+    margin:auto;
+    top:200px;
+    padding: var(--big) 0px 120px 25px;
+}
+.contentContainer::before{
+    content: "";
+    position: absolute;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--white);
+    top: calc(-1 * 30px / 2);
+    left: calc(-1 * 30px / 2 - 2px);
+}
+.contentContainer::after{
+    content: attr(titolo);
+    color: var(--white);
+    font-size: var(--big);
+    font-family: var(--ubuntu);
+    font-weight: bold;
+    position: absolute;
+    top: calc(-1 * var(--big) / 2);
+    left: 25px;
+}
+.contentSubtitle{
+    margin-top:30px;
+}
+#chisonoimg {
+    width: 50px;
 }
