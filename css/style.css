@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+    user-select: none;
+    text-decoration: none;
+}
+:root{
+    /*Color*/ 
+    --head: #008cff;
+    --below: #2C3333;
+    --white: #ffffff;
+    --black: #000000;
+
+    /*Font*/
+    --bebas: font-family: 'Bebas Neue', cursive;
+    --ubuntu: font-family: 'Ubuntu', sans-serif;
+
+    /*Font size*/
+    --mega: 155px;
+    --big: 37px;
+    --medium: 30px;
+    --small: 25px;
+    --mini: 20px;
+}
