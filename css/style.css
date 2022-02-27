@@ -11,14 +11,62 @@
     --white: #ffffff;
     --black: #000000;
 
-    /*Font*/
     --bebas: font-family: 'Bebas Neue', cursive;
     --ubuntu: font-family: 'Ubuntu', sans-serif;
 
-    /*Font size*/
     --mega: 155px;
     --big: 37px;
     --medium: 30px;
     --small: 25px;
     --mini: 20px;
+}
+body{
+    height: 2200px;
+}
+#navbar {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+}
+#menu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 15px;
+    top:40px;
+}
+.Tmenu {
+    margin:0 40px;
+    font-size: 28px;
+    color:var(--white);
+    font-family: var(--bebas);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+#M1 {
+    background-color: var(--head);
+   width:65%;
+    height: 710px;
+}
+#img1 {
+    position: absolute;
+    margin: 10px;
+    top: 100px;
+    right:0;
+    width:600px;
+}
+#content {
+    background-color: var(--below);
+    width: 100%;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+}
+#content-open {
+    font-size: 370px;
+    color: var(--white);
+    position: absolute;
+    top: 550px;
+    left: 48%;
 }
