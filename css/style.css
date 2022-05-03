@@ -22,9 +22,11 @@
 }
 #navbar {
     width:250px;
-    height: 920px;
+    height: 100vh;
     background-color: #0073ff;
     border-right: 12px solid #00bfff;
+    display: block;
+    align-items: center;
 }
 #vicbg {
     background-color: #0007ff;
@@ -46,4 +48,41 @@
     position: absolute;
     width:160px;
     margin: 3px;
+}
+#cao {
+    top:10px;
+    left:20px;
+    font-size: 35px;
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+
+}
+#menu {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    left:10px;
+    position: absolute;
+    top:250px;
+}
+.menuT {
+    margin:30px;
+    color: white;
+    font-size:38px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+.icon {
+    color: white;
+    font-size: 42px;
+}
+.menuT:hover {
+    border-radius: 13px;
+    transform: scale(1.15);
+}
+.menuT:active {
+    transform: scale(0.99);
 }
