@@ -86,3 +86,32 @@
 .menuT:active {
     transform: scale(0.99);
 }
+#projectbox {
+    width:700px;
+    height:700px;
+    background-color: #17138c;
+    position: absolute;
+    left: 720px;
+    top:100px;
+    border-radius: 23px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+#projecttext {
+    top: 200px;
+    left: 360px;
+    position: absolute;
+    font-family: 'Koulen', cursive;
+    font-size: 55px;
+    font-weight: bold;
+}
+#projecttext2 {
+    color: #4800ff;
+}
+.project {
+    margin: 23px;
+    color: white;
+    font-family: 'Koulen', cursive;
+    font-size: 34px;
+}
