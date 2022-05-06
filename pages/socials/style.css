@@ -1,0 +1,212 @@
+*{
+    padding:0;
+    margin:0;
+    user-select: none;
+    text-decoration: none;
+}
+:root{
+    /*Color*/ 
+    --head: #008cff;
+    --below: #2C3333;
+    --white: #ffffff;
+    --black: #000000;
+
+    --bebas: font-family: 'Bebas Neue', cursive;
+    --ubuntu: font-family: 'Ubuntu', sans-serif;
+
+    --mega: 155px;
+    --big: 37px;
+    --medium: 30px;
+    --small: 25px;
+    --mini: 20px;
+}
+#navbar {
+    width:250px;
+    height: 100vh;
+    background-color: #0073ff;
+    border-right: 12px solid #00bfff;
+    display: block;
+    align-items: center;
+}
+#vicbg {
+    background-color: #0007ff;
+    height: 200px;
+    width: 262px;
+    position: absolute;
+}
+#vicbox {
+    width: 150px;
+    height: 140px;
+    margin: 20px;
+    left: 30px;
+    top:3px;
+    position: absolute;
+    background-color: white;
+    border-radius: 32px;
+}
+#vicimg {
+    position: absolute;
+    width:160px;
+    margin: 3px;
+}
+#cao {
+    top:10px;
+    left:20px;
+    font-size: 35px;
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+
+}
+#menu {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    left:10px;
+    position: absolute;
+    top:250px;
+}
+.menuT {
+    margin:30px;
+    color: white;
+    font-size:38px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+.icon {
+    color: white;
+    font-size: 42px;
+}
+.menuT:hover {
+    border-radius: 13px;
+    transform: scale(1.15);
+}
+.menuT:active {
+    transform: scale(0.99);
+}
+#twitterbox1 {
+    background-color: #1DA1F2;
+    width: 500px;
+    height: 260px;
+    border-radius: 23px;
+    position: absolute;
+    top:60px;
+    left:320px;
+}
+#twitterbox2 {
+    background-color: white;
+    margin:30px;
+    border-radius: 23px;
+    width:90px;
+    height: 80px;
+}
+#imgtwitter {
+    width: 60px;
+    margin: 10px;
+    left:35px;
+    position: absolute;
+}
+#twittertitle {
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    left:140px;
+    top:23px;
+    font-family: 'Koulen', cursive;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+#twittertitle:hover {
+    transform: scale(1.02);
+}
+#twittersubtitle {
+    top:150px;
+    position: absolute;
+    font-size: 39px;
+    left:80px;
+    font-family: 'Koulen', cursive;
+    color: white;
+}
+#instagrambox1 {
+    background-color: #C13584;
+    width: 500px;
+    height: 260px;
+    border-radius: 23px;
+    position: absolute;
+    top:340px;
+    left:320px;
+}
+#instagrambox2 {
+    background-color: white;
+    margin:30px;
+    border-radius: 23px;
+    width:90px;
+    height: 80px;
+}
+#instagramtitle {
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    left:140px;
+    top:23px;
+    font-family: 'Koulen', cursive;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+#instagramsubtitle {
+    top:150px;
+    position: absolute;
+    font-size: 39px;
+    left:80px;
+    font-family: 'Koulen', cursive;
+    color: white;
+}
+#instagramimg {
+    width: 60px;
+    margin: 10px;
+    left:35px;
+    position: absolute;
+}
+#discordbox1 {
+    background-color: #5865F2;
+    width: 500px;
+    height: 260px;
+    border-radius: 23px;
+    position: absolute;
+    top:60px;
+    left:850px;
+}
+#discordbox2 {
+    background-color: white;
+    margin:30px;
+    border-radius: 23px;
+    width:90px;
+    height: 80px;
+}
+#discordimg {
+    width: 60px;
+    margin: 10px;
+    left:35px;
+    position: absolute;
+}
+#discordtitle {
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    left:140px;
+    top:23px;
+    font-family: 'Koulen', cursive;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+#discordsubtitle {
+    top:150px;
+    position: absolute;
+    font-size: 39px;
+    left:80px;
+    font-family: 'Koulen', cursive;
+    color: white;
+}

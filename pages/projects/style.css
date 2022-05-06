@@ -103,15 +103,42 @@
     left: 360px;
     position: absolute;
     font-family: 'Koulen', cursive;
-    font-size: 55px;
+    font-size: 75px;
     font-weight: bold;
 }
 #projecttext2 {
     color: #4800ff;
 }
+#projectbox2 {
+   position: absolute;
+   align-items: center;
+   margin:20px;
+   background-color: white;
+   width: 650; 
+   height: 210px;
+   border-radius: 23px;
+   transition: all 0.2s ease-in-out;
+}
+#projectbox3 {
+    position: absolute;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    width: 650px;
+    height: 270px;
+    border-radius: 23px;
+    top:230px;
+    transition: all 0.2s ease-in-out;
+}
 .project {
     margin: 23px;
-    color: white;
+    color: black;
     font-family: 'Koulen', cursive;
     font-size: 34px;
+}
+#projectbox2:hover {
+    transform: scale(1.01);
+}
+#projectbox3:hover {
+    transform: scale(1.01);
 }
