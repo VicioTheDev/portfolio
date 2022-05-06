@@ -86,17 +86,3 @@
 .menuT:active {
     transform: scale(0.99);
 }
-#text {
-    top: 200px;
-    left: 350px;
-    position: absolute;
-    font-family: 'Koulen', cursive;
-    font-size: 55px;
-    font-weight: bold;
-}
-#bigimg {
-    width:1000px;
-    bottom: 40px;
-    left: 600px;
-    position: absolute;
-}
