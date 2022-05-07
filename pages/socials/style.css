@@ -121,6 +121,9 @@
 #twittertitle:hover {
     transform: scale(1.02);
 }
+#twittertitle:active {
+    transform: scale(0.99);
+}
 #twittersubtitle {
     top:150px;
     position: absolute;
@@ -155,6 +158,12 @@
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 
+}
+#instagramtitle:hover {
+    transform: scale(1.02);
+}
+#instagramtitle:active {
+    transform: scale(0.99);
 }
 #instagramsubtitle {
     top:150px;
@@ -209,4 +218,27 @@
     left:80px;
     font-family: 'Koulen', cursive;
     color: white;
+}
+#footer {
+    background-color: #0044ff;
+    height: 110px;
+    width: 100%;
+    bottom: 0;
+}
+#make {
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    position: absolute;
+    margin:20px;
+    align-items: center;
+    left:500px
+}
+#cr {
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    position: absolute;
+    margin-top: 60px;
+    left:360px;
 }

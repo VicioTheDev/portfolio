@@ -142,3 +142,26 @@
 #projectbox3:hover {
     transform: scale(1.01);
 }
+#footer {
+    background-color: #0044ff;
+    height: 110px;
+    width: 100%;
+    bottom: 0;
+}
+#make {
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    position: absolute;
+    margin:20px;
+    align-items: center;
+    left:500px
+}
+#cr {
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    position: absolute;
+    margin-top: 60px;
+    left:360px;
+}
