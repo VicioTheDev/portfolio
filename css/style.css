@@ -123,3 +123,40 @@
     margin-top: 60px;
     left:360px;
 }
+@media screen and (max-width: 479px) {
+    #navbar {
+        width:226.2vh;
+        height:200px;
+        display: flex;
+    }
+    #menu {
+        display: flex;
+        top:10px;
+        left:500px;
+    }
+    #bigimg {
+        top:500px;
+    }
+    #footer {
+        top:326vh;
+        width: 227.9vh;
+        position: absolute;
+        display: flex;
+        align-items: center;
+    }
+    #make {
+        display: flex;
+        margin:auto;
+    }
+    #cr {
+        margin: auto;
+        top:70px;
+    }
+    .menuT {
+        font-size: 50px;
+    }
+    #text {
+        left:90px;
+        top:700px;
+    }
+}
