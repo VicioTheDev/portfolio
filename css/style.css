@@ -138,9 +138,9 @@
         top:500px;
     }
     #footer {
-        top:326vh;
+        bottom:0;
         width: 227.9vh;
-        position: absolute;
+        position: fixed;
         display: flex;
         align-items: center;
     }
