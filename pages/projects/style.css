@@ -165,3 +165,55 @@
     margin-top: 60px;
     left:360px;
 }
+@media screen and (max-width: 479px) {
+    #navbar {
+        width:226.2vh;
+        height:200px;
+        display: flex;
+    }
+    #menu {
+        display: flex;
+        top:10px;
+        left:500px;
+    }
+    #footer {
+        bottom:0;
+        width: 227.9vh;
+        position: fixed;
+        display: flex;
+        align-items: center;
+    }
+    #make {
+        display: flex;
+        margin:auto;
+    }
+    #cr {
+        margin: auto;
+        top:70px;
+    }
+    .menuT {
+        font-size: 50px;
+    }
+    #projecttext {
+        top: 700px;
+        left:90px;
+    }
+    .project {
+        font-size: 70px;
+    }
+    #projectbox {
+        top:400px;
+        left:400px;
+        width:1000px;
+        height:1420px;
+    }
+    #projectbox2 {
+        width: 950px;
+        height: 530px;
+    }
+    #projectbox3 {
+        margin-top: 350px;
+        width: 950px;
+        height:800px;
+    }
+}
